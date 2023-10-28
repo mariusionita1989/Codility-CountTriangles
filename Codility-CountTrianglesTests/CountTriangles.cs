@@ -58,7 +58,7 @@ namespace Codility_CountTrianglesTests
         public void Test_Solution_UpperBound()
         {
             Solution solution = new Solution();
-            int[] A = new int[1000]; // All elements are 1
+            int[] A = new int[1000]; 
             int expected = 0; // Number of valid triplets for this input
             int result = solution.solution(A);
             Assert.Equal(expected, result);
